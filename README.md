@@ -1,2 +1,2 @@
 # E-comm
-This is a basic ecommerce web app with node and react using mongodb
+This is a basic E-commerce web app with node and react using mongodb using mongoose
