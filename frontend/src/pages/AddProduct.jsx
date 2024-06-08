@@ -11,6 +11,7 @@ const AddProduct = () => {
     const handleOnSubmit = async(e)=>{
         const auth = localStorage.getItem('user')
         e.preventDefault();
+        console.log(auth)
         const userId = JSON.parse(auth)._id
 
         if (!name || !price || !category || !company){

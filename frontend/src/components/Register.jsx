@@ -31,7 +31,7 @@ const Register = () => {
             });
             result = await result.json();
             console.warn(result);
-            localStorage.setItem("user",result)
+            localStorage.setItem("user",JSON.stringify(result))
             navigate('/')
             setMessage(result.message);
 
